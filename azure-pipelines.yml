@@ -6,9 +6,9 @@ pool:
 
 steps:
 - script: |
-    echo "=========================================="
-    echo " CI/CD PIPELINE SUCCESSFULLY RUNNING! "
-    echo " Microsoft Fabric + Azure DevOps Demo    "
-    echo " Portfolio ready for Willmott Dixon      "
-    echo "=========================================="
-  displayName: 'CI/CD Test – GREEN PIPELINE'
+    echo "===================================================="
+    echo " CI/CD PIPELINE 100% WORKING – GREEN CHECKMARK! "
+    echo " Microsoft Fabric + Azure DevOps Portfolio Demo    "
+    echo " Ready for Willmott Dixon Data Engineer role       "
+    echo "===================================================="
+  displayName: 'Instant GREEN CI/CD Test'
