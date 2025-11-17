@@ -1,0 +1,19 @@
+trigger:
+- main
+
+pool:
+  vmImage: ubuntu-latest
+
+steps:
+- task: UsePythonVersion@0
+  inputs:
+    versionSpec: '3.11'
+
+- script: |
+    python -m pip install --upgrade pip
+    pip install papermill nbconvert
+    papermill notebooks/02_bronze_to_silver_transform.ipynb output.ipynb
+  displayName: 'Run Fabric Notebook'
+
+- publish: output.ipynb
+  artifact: notebook-output
