@@ -1,17 +1,17 @@
-# Microsoft Fabric Data Platform Demo
+# Microsoft Fabric Data Platform Demo – Willmott Dixon Ready
 
-**Live end-to-end demo built for the Willmott Dixon Data Engineer role**  
-Proves: PySpark | SQL | Lakehouse | Delta tables | CI/CD-ready structure | Self-service analytics
+End-to-end modern data platform built with Microsoft Fabric, Azure DevOps CI/CD, and Power BI.
 
-### Week 2 Complete – Bronze → Silver Layer
-- Ingested NYC Taxi parquet → `bronze.trips_raw`
-- Transformed with PySpark → `silver.fact_trips` (cleaned, filtered, renamed columns)
-- Unit-tested with >2.8M rows assertion
+### Features Delivered
+- Lakehouse with bronze/silver layers
+- PySpark notebook for data transformation
+- Azure DevOps CI/CD pipeline (auto-runs notebook on commit)
+- Live Power BI self-service dashboard
 
-**Live Notebook**: [notebooks/02_bronze_to_silver_transform.ipynb](notebooks/02_bronze_to_silver_transform.ipynb)
+### Live Links
+- Code + Notebook: https://github.com/Keer0205/fabric-data-platform-demo
+- CI/CD Pipeline: https://dev.azure.com/Keer0205/fabric-data-platform-demo
+- Live Power BI Dashboard: https://app.fabric.microsoft.com/reportEmbed?reportId=39dc4996-aa21-4255-860f-ea1bd90578ff&auth
 
-### Next
-- Week 3: Azure DevOps CI/CD + Row-Level Security
-- Week 4: Power BI semantic model + self-service dashboard
-
-Built by Keerthana M (@Keer0205) – Nov 2025
+Built by Keerthana M – November 2025  
+Directly aligned to Willmott Dixon Data Engineer requirements.
