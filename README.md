@@ -1,17 +1,12 @@
-# Microsoft Fabric Data Platform Demo – Willmott Dixon Ready
+# Microsoft Fabric Data Platform Demo
 
-End-to-end modern data platform built with Microsoft Fabric, Azure DevOps CI/CD, and Power BI.
+End-to-end analytics platform built with Microsoft Fabric + Power BI  
+Live public Power BI dashboard: https://app.fabric.microsoft.com/reportEmbed?reportId=39dc4996-aa21-4255-860f-ea1bd90578ff&auth  
 
-### Features Delivered
-- Lakehouse with bronze/silver layers
-- PySpark notebook for data transformation
-- Azure DevOps CI/CD pipeline (auto-runs notebook on commit)
-- Live Power BI self-service dashboard
+### Features
+- Bronze → Silver transformation with PySpark  
+- Row-Level Security ready  
+- Self-service Power BI dashboard  
 
-### Live Links
-- Code + Notebook: https://github.com/Keer0205/fabric-data-platform-demo
-- CI/CD Pipeline: https://dev.azure.com/Keer0205/fabric-data-platform-demo
-- Live Power BI Dashboard: https://app.fabric.microsoft.com/reportEmbed?reportId=39dc4996-aa21-4255-860f-ea1bd90578ff&auth
-
-Built by Keerthana M – November 2025  
-Directly aligned to Willmott Dixon Data Engineer requirements.
+Built by Keerthana Murugesan – Nov 2025  
+PL-300 Certified | Power BI & Fabric Specialist
