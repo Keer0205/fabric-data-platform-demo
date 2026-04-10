@@ -38,12 +38,6 @@ The goal is to present a clean example of how a modern data platform can support
 - Reporting workflow built for self-service analytics
 - Row-level security ready approach
 
----
-
-## Live Dashboard
-
-**Power BI Dashboard:**  
-Paste your dashboard link here
 
 ---
 
